@@ -12,6 +12,6 @@ By default, stockVis displays the SPY ticker (an index of the entire S & P 500).
 
 StockVis relies heavily on two functions from the quantmod package:
 
-1. It usesgetSymbols to download financial data straight into R from websites like Yahoo finance and the Federal Reserve Bank of St. Louis.
+1. It uses getSymbols to download financial data straight into R from websites like Yahoo finance and the Federal Reserve Bank of St. Louis.
 2. It uses chartSeries to display prices in an attractive chart.
 StockVis also relies on an R script named helpers.R, which contains a function that adjusts stock prices for inflation.
